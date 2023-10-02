@@ -1,11 +1,21 @@
 body {
-    font-family: roboto, arial, helvetica, sans-serif;
+    font-family: "roboto", arial, helvetica, sans-serif;
     display:flex;
-    align-items:center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-color:#7f89a598;
+}
+
+.title {
+    font-family: "comfortaa", arial, helvetica, sans-serif;
+    font-size: 50px;
+    color:rgb(22, 16, 53);
+    text-shadow: 1px 1px 2px rgb(42, 22, 75);
 }
 
 button {
+    font-family: "roboto", arial, helvetica, sans-serif;
     height: 100px;
     width: 100px;
     font-size: 40px;
@@ -35,6 +45,7 @@ button:hover {
     background-color: #1C1B22;
     border-radius: 12px;
     padding-bottom: 10px;
+    box-shadow: 1px 1px 2px rgb(42, 22, 75);
 }
 
 .row {
